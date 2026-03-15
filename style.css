@@ -1,0 +1,90 @@
+body{
+  font-family: Arial;
+  margin:0;
+  background:#f4f4f4;
+  }
+  
+  header{
+  background:#1e8f3f;
+  color:white;
+  padding:20px;
+  text-align:center;
+  }
+  
+  nav a{
+  color:white;
+  margin:10px;
+  text-decoration:none;
+  font-weight:bold;
+  }
+  
+  nav a:hover{
+  text-decoration:underline;
+  }
+  
+  .hero{
+  height:450px;
+  background:url("/home/alimatou/Bureau/projet/pro8/balle.jpeg") center/cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  animation:fade 2s;
+  }
+  
+  .cards{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:40px;
+  flex-wrap:wrap;
+  }
+  
+  .card{
+  background:white;
+  width:250px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  transition:transform 0.3s;
+  }
+  
+  .card:hover{
+  transform:scale(1.05);
+  }
+  
+  .card img{
+  width:100%;
+  border-radius:10px 10px 0 0;
+  }
+  
+  .card h3{
+  padding:10px;
+  }
+  
+  .card p{
+  padding:10px;
+  }
+  
+  .content{
+  padding:40px;
+  text-align:center;
+  }
+  
+  .content img{
+  width:50%;
+  border-radius:10px;
+  margin-bottom:20px;
+  }
+  
+  footer{
+  text-align:center;
+  padding:20px;
+  background:#222;
+  color:white;
+  }
+  
+  @keyframes fade{
+  from{opacity:0}
+  to{opacity:1}
+  }
