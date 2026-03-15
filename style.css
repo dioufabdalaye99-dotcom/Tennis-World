@@ -24,7 +24,7 @@ body{
   
   .hero{
   height:450px;
-  background:url("/home/alimatou/Bureau/projet/pro8/balle.jpeg") center/cover;
+  background:url("balle.jpeg") center/cover;
   display:flex;
   flex-direction:column;
   justify-content:center;
